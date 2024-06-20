@@ -45,6 +45,7 @@ const ThreeSixtyViewer = () => {
       scene.add(mesh);
 
       mesh.rotation.y = THREE.MathUtils.degToRad(-133);
+      mesh.rotation.z = THREE.MathUtils.degToRad(-10);
     });
 
     camera.position.set(0, 0, 400);
