@@ -44,7 +44,7 @@ const ThreeSixtyViewer = () => {
       const mesh = new THREE.Mesh(geometry, material);
       scene.add(mesh);
 
-      mesh.rotation.y = THREE.MathUtils.degToRad(-90);
+      mesh.rotation.y = THREE.MathUtils.degToRad(-98);
       mesh.rotation.z = THREE.MathUtils.degToRad(-10);
     });
 
